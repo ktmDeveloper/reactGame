@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.fa-star{
+  margin:0.5em;
+  font-size: 24px;
+  color:#e98074;
+}
+
+span{
+  display: inline-block;
+  margin: 0.5em;
+  text-align: center;
+  width: 24px;
+  border-radius:50%;
+  cursor:pointer;
+  border: 1px solid;
+  text-shadow: none;
+  -webkit-user-select: none; /* Chrome/Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+
+  /* Not implemented yet */
+  -o-user-select: none;
+  user-select: none;    
+
+}
+
+span.selected{
+  background-color:#eee;
+  color:rgb(179, 175, 175);
+  cursor: not-allowed;
+}
+
+span.used{
+  background-color:#aaddaa;
+  color:rgb(109, 103, 103);
+  cursor: not-allowed; 
+}
+
+.container{
+  max-width: 550px;
+  font-family: 'Cinzel Decorative', cursive, sans-serif;
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: 1px solid #965F06;
+  -webkit-box-shadow: 5px 14px 26px rgba(000,000,000,0.5), inset 1px 2px 0px rgba(255,255,255,0.4);
+          box-shadow: 5px 14px 26px rgba(000,000,000,0.5), inset 1px 2px 0px rgba(255,255,255,0.4);
+}
+
+.jumbotron{
+  background-color: #eae7dc;
+  color:#e85a4f;
+}
